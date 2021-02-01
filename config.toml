@@ -5,7 +5,7 @@ theme = "mediumish-gohugo-theme"
 summaryLength = 25
 copyright = "Crislei Terassi - All rights reserved"
 enableEmoji = true
-publishDir = "docs"
+publishDir = "public"
 googleAnalytics = "UA-1XXXXXXX1-X"
 
 [params]
