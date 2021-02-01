@@ -1,4 +1,50 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.tsbrothers.com.br/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme ="ananke"
+title = "Crislei Dev"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Crislei Terassi - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+googleAnalytics = "UA-1XXXXXXX1-X"
+
+[params]
+  description ="the clean blog!"
+  mailchimp = "https://tsbrothers.us7.list-manage.com/subscribe/post?u=b53aaed3fb5e2f9b3455a5b97&amp;id=ecd7fc8bc7"
+  mailprotect = "b_b53aaed3fb5e2f9b3455a5b97_ecd7fc8bc7"
+  
+[params.author]
+  name = "Crislei Terassi"
+  thumbnail = "/images/author.jpg"
+  description = "Creator of this site."
+
+[params.index]
+  picture = "/images/author.jpg"
+  title = "Crislei Terassi"
+  subtitle = "Hi!, I'm a software developer. Sharing some interesting stuff here!"
+  mdtext = '''This is my personal website, showing the projects I'm working on.\
+**Feel free to test the live demos and download the source on our GitHub.**
+### Social'''
+  alertbar = true
+
+[params.social]
+  github = "crtsms"
+  linkedin = "crisleiterassi"
+  twitter = "crtsms"
+
+## Main Menu
+[[menu.main]]
+    name = "Projects"
+    weight = 100
+    identifier = "projects"
+    url = "/tags/projects"
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"    
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
