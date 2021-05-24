@@ -1,4 +1,4 @@
-baseURL = "https://www.tsbrothers.com.br/"
+baseURL = "https://crislei.dev/"
 languageCode = "en-us"
 title = "Crislei Dev"
 theme = "mediumish-gohugo-theme"
@@ -7,11 +7,6 @@ copyright = "Crislei Terassi - All rights reserved"
 enableEmoji = true
 publishDir = "public"
 googleAnalytics = "UA-1XXXXXXX1-X"
-
-[params]
-  description ="the clean blog!"
-  mailchimp = "https://tsbrothers.us7.list-manage.com/subscribe/post?u=b53aaed3fb5e2f9b3455a5b97&amp;id=ecd7fc8bc7"
-  mailprotect = "b_b53aaed3fb5e2f9b3455a5b97_ecd7fc8bc7"
   
 [params.author]
   name = "Crislei Terassi"
